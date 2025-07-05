@@ -1,0 +1,25 @@
+{
+  "name": "Gmail and Outlook mail bot",
+  "version": "1.0.0",
+  "description": "An automated bot for Outlook and Gmail mail handling",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
+    "bull": "^4.16.5",
+    "bullmq": "^5.37.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "ioredis": "^5.4.2",
+    "isomorphic-fetch": "^3.0.0",
+    "nodemailer": "^6.10.0",
+    "openai": "^4.80.1"
+  }
+}
